@@ -1,0 +1,67 @@
+.list-album {
+    height: 4rem;
+    text-align: start;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin: 10px;
+    width: 98%;
+    padding: 7px 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.label {
+    font-size: 150%;
+    box-shadow: none;
+    justify-content: center;
+    cursor:default;
+}
+
+.playlists .err {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.playlists input {
+    padding: 1rem;
+    border: solid 1px rgba(0,0,0,0.3);
+    /* margin-bottom: 2rem; */
+}
+
+.playlists input+button {
+    padding: 1rem;
+    color: white;
+    background: blue;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+option {
+    padding: 1rem;
+}
+
+.pimer {
+    font-size: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    padding: 10px 30px;
+}
+
+.playlist-details h2 {
+    text-align: center;
+}
+
+.instruct {
+    text-align: center;
+    font-size: 200%;
+    padding: 1rem;
+}
