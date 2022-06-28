@@ -49,6 +49,10 @@ option {
     font-size: 70%;
 }
 
+form  {
+    padding-left: 1rem;
+}
+
 .title {
     display: flex;
     justify-content: space-between;
