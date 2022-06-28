@@ -9,15 +9,29 @@ import PlaylistDetails from './components/pages/PlaylistDetails';
 
 const data  = [
   [
-    {name: 'Jail', duration: '4:57', album: 'donda'},
-    {name: 'Off The Grid', duration: '2:23', album: 'donda'},
-    {name: 'Hurricane', duration: '3:41', album: 'donda'},
-    {name: 'Jonah', duration: '7:23', album: 'donda'},
+    {name: 'Koni Baje', duration: '03:56', album: 'Outside'},
+    {name: 'Jidenna', duration: '03:01', album: 'Outside'},
+    {name: 'More Life', duration: '01:03', album: 'Outside'},
   ],
   [
-    {name: 'Koni Baje', duration: '3:56', album: 'outside'},
-    {name: 'Jidenna', duration: '3:01', album: 'outside'},
-    {name: 'More Life', duration: '1:03', album: 'outside'},
+    {name: 'Maybe', duration: '10:14', album:'Beutiful imperfection' },
+    {name: 'Be My Man', duration: '02:13', album:'Beutiful imperfection' },
+    {name: 'Bimpe', duration: '04:01', album:'Beutiful imperfection' },
+    {name: 'OK OK', duration: '03:09', album:'Beutiful imperfection' },
+    {name: 'Ore', duration: '03:33', album:'Beutiful imperfection' },
+    {name: 'Broda Ole', duration: '02:59', album:'Beutiful imperfection' },
+  ],
+  [
+    {name: 'Jail', duration: '04:57', album: 'Donda'},
+    {name: 'Off The Grid', duration: '02:23', album: 'Donda'},
+    {name: 'Hurricane', duration: '03:41', album: 'Donda'},
+    {name: 'Jonah', duration: '07:23', album: 'Donda'},
+  ],
+  [
+    {name: 'DNA', duration: '04:00', album:'DAMN' },
+    {name: 'YAH', duration: '04:12', album:'DAMN' },
+    {name: 'LOYALTY', duration: '03:37', album:'DAMN' },
+    {name: 'FEEL', duration: '04:21', album:'DAMN' },
   ]
 ]
 
@@ -41,7 +55,6 @@ function App() {
     setName(txt)
   }
   
-
   const play = () => {
 
     if (!isPlaying) {
