@@ -13,14 +13,17 @@ const Songs = ({playlists, albums, settingPlaylists, settingDuration, settingNam
             {albums[i].map(({name, duration})=>{
                 return (
                     <div 
-                        className='list-album' 
-                        key={name}
-                        onClick={()=>{
+                    className='list-album' 
+                    key={name}
+                    onClick={()=>{
                             settingName(name);
                             settingDuration(duration)
                         }}
-                    >
-                        <span>{name}</span>
+                        >
+                        <div className='txt'>
+                            <span>{name}</span>
+                            <span> {duration}</span>
+                        </div>
                         <select
                             onChange={(e)=>{
                                 if (e.target.value !== 'Add to playlist') {
@@ -43,11 +46,10 @@ const Songs = ({playlists, albums, settingPlaylists, settingDuration, settingNam
                                 )
                             })}
                         </select>
-                        <span> {duration}</span>
                     </div>
                 )
             })}
-            <h2 className='instruct'>Create playlist in the playlist section, come back here and add songs to your playlist, then goback to view your songs in your playlists!</h2>
+            <h2 className='instruct'>Create playlist in the playlist section, come back here and add songs to your playlist, then go back to view your songs in your playlists!</h2>
         </div>
     );
 }

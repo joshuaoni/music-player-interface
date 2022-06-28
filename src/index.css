@@ -13,7 +13,7 @@ body {
 
 .App {
   height: 100vh;
-  padding: 3vh;
+  padding: 3vh 3vw 3vh 0.5vw;
 }
 
 h1 {
@@ -58,4 +58,13 @@ span {
 
 .tt {
   text-align: center;
+}
+
+.songs .list-album {
+  display: block;
+}
+
+.txt {
+  display: flex;
+  justify-content: space-between;
 }
