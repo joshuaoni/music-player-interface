@@ -49,7 +49,7 @@ const Songs = ({playlists, albums, settingPlaylists, settingDuration, settingNam
                     </div>
                 )
             })}
-            <h2 className='instruct'>Create playlists in the playlist section, come back here and add songs to your playlist, then go back to view your songs in your playlists!</h2>
+            <h2 className='instruct'>You can create playlists in the playlist section. Come back here to add songs to your playlist, then go back to view your songs in your playlists!</h2>
         </div>
     );
 }
